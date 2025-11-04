@@ -1,19 +1,19 @@
 * EXCEPTION:
-* ERROR - :x method missing on ~Class~.
+* ERROR - :tickables method missing on ~Module~.
 
-#+begin_src ~Class#inspect~
-NIL
-#+end_src ~Class#inspect~
+#+begin_src ~Module#inspect~
+TickRegistry
+#+end_src ~Module#inspect~
 
-
+** Did you mean?
+Here's a list of methods that kind of look like :tickables.
+*** :tick
 
 The method named
-  :x
-doesn't exist on [NilClass].
+  :tickables
+doesn't exist on [Module, TickRegistry].
 
 (suggestions above)
 ** Backtrace:
-*** app/main.rb:143:in calc_grazing
-*** app/main.rb:143:in calc_grazing
-*** app/main.rb:58:in calc
-*** app/main.rb:3:in tick
+*** app/game.rb:12:in tick
+*** app/main.rb:6:in tick
